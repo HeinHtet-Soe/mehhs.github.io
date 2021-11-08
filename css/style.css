@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu&display=swap');
+:root{
+    --white : #E8E8E8;
+    --red : #F05454;
+    --blue : #30475E;
+    --black : #222831;
+    --l-blue : #185ADB;
+
+    --ubuntu : 'Ubuntu', sans-serif;
+    --oxygen : 'Oxygen', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    line-height: 2rem;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+body{
+    font-family: var(--oxygen);
+}
+/* Typography */
+h3{
+    font-family: var(--ubuntu);
+}
+.aboutme{
+    font-family: var(--ubuntu);
+    color: var(--black);
+    text-align: justify;
+}
+.highlight{
+    font-weight: bold;
+    color: var(--red);
+}
+
+.instagram{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 )
+  }
+.slide{
+    margin: 20px;
+}
